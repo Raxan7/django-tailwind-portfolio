@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Projects{% endblock title %}
+
+{% block content %}
+<div class='bg-gray-800 text-white p-5 md:py-8 md:px-20 lg:px-40 xl:px-60'>
+  <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Projects Completed</p>
+
+      <!-- Project 1: Student Management System with Django -->
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/password-generator.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Student Management System with Django</p>
+            <p class='text-justify my-3'>In this project I took an open-source project from <a href="https://github.com/vijaythapa333/django-student-management-system" target="_blank" class='text-blue-400'>GitHub</a>.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Added the ability to upload results via CSV file from the Staff interface</li>
+              <li>&#9989; Added the ability to upload exam results for University (Test 1, Test 2, and University Examinations)</li>
+              <li>&#9989; Integrated a Machine Learning model to predict University Examination results</li>
+              <li>&#9989; Added a Parents interface linked to the Student Account</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> Django</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-git-alt"></i> GIT</span>
+            </div>
+          </div>
+      </div>
+
+      <!-- Project 2: Joblink -->
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/web-blog-ui.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Joblink</p>
+            <p class='text-justify my-3'>In this project I made a system where Employers from various fields can connect with Employees. I took this project from <a href="https://github.com/Sany07/Job-Portal-Django" target="_blank" class='text-blue-400'>GitHub</a>.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Modified the Interface to be more elegant</li>
+              <li>&#9989; Added a recommendation system for job postings</li>
+              <li>&#9989; Integrated a Machine Learning model to evaluate job relevance for Employees</li>
+              <li>&#9989; Enabled Employees to upload their CVs</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> Django</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-git-alt"></i> GIT</span>
+            </div>
+          </div>
+      </div>
+
+      <!-- Project 3: Business Insights -->
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/tools-website.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Business Insights</p>
+            <p class='text-justify my-3'>A prototype system designed to generate insights useful for business and marketing teams. This project was built from scratch.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Displays sales in graphical view</li>
+              <li>&#9989; Features a chatbot for sales performance analysis</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> Django</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-git-alt"></i> GIT</span>
+            </div>
+          </div>
+      </div>
+
+      <!-- Project 4: Smart Cart Management System -->
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="https://cdn.jsdelivr.net/gh/hostmind/host/static/movies-web-ui.png" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Smart Cart Management System</p>
+            <p class='text-justify my-3'>A system designed to help the impaired interact with a shopping system.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Voice interaction feature for page descriptions</li>
+              <li>&#9989; Accepts user voice input for navigation and actions</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-solid fa-server"></i> Django</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-git-alt"></i> GIT</span>
+            </div>
+          </div>
+      </div>
+
+      <div class='flex justify-center'>
+        <a href='https://github.com/Raxan7' target='_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-blue-600 outline hover:outline-none outline-blue-600 transition delay-75 ease-in-out my-3'>Load more <i class="bi bi-arrow-clockwise font-extrabold"></i></button></a>
+      </div>
+</div>
+{% endblock %}
